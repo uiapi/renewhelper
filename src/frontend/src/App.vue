@@ -1130,9 +1130,9 @@ const calculateCycleEndDate = (startDateStr, item) => {
                 const c = oldConf[type];
                 if (!c) return;
                 
-                // 特殊检查：bark 需要 key，ntfy 需要 token
+                // 特殊检查：bark 需要 key，ntfy 需要 topic
                 if (type === 'bark' && (!c.key || !c.key.trim())) return;
-                if (type === 'ntfy' && (!c.token || !c.token.trim())) return;
+                if (type === 'ntfy' && (!c.topic || !c.topic.trim())) return;
                 
                 // 通用检查：至少有一个非空值
                 if (!Object.values(c).some(v => {

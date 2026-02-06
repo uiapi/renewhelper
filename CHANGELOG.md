@@ -37,4 +37,4 @@
 - 2026-02-04: improved: optimize exchange rate UI with icon & tooltip v3.0.24
 - 2026-02-04: fixed: force icon colors for exchange rate status v3.0.26
 - 2026-02-05: improved: dual-mode build (inline/cdn) with local fonts; fixed: ghcr deploy actions; fixed: bill projection logic for short cycles v3.0.37
-
+- 2026-02-06: fixed: ntfy migration check topic value not token v3.0.28
